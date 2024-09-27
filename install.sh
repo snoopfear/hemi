@@ -13,6 +13,7 @@ show() {
 if ! command -v jq &> /dev/null; then
     show "jq not found, installing..."
     sudo apt-get update
+    sudo apt -qy install ccze
     sudo apt-get install -y jq > /dev/null 2>&1
     if [ $? -ne 0 ]; then
         show "Failed to install jq. Please check your package manager."
