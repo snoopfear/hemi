@@ -49,7 +49,7 @@ After=network.target
 
 [Service]
 ExecStart=/root/heminetwork_v0.4.3_linux_amd64/popmd  # Полный путь к бинарному файлу
-Environment="POPM_BTC_PRIVKEY=$PRIVATE_KEY_LOCAL"
+Environment="POPM_BTC_PRIVKEY=$POPM_BTC_PRIVKEY"
 Environment="POPM_STATIC_FEE=55"
 Environment="POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public"
 
