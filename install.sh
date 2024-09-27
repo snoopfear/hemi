@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s https://raw.githubusercontent.com/zunxbt/logo/main/logo.sh | bash
+echo "Welcome to the t3rn Executor Setup by snoopfear!"
 
 sleep 3
 
